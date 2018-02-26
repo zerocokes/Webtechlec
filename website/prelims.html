@@ -1,243 +1,243 @@
-<html>
-  <head>
-      <title> </title>
-          <body>
-            <h1> INTERNET </h1>
-<p> - A global system of interconnected computer networks that use the standard Internet Protocol Suite (TCP/IP) to serve billions of users
-worldwide. </br>
-- It is a network of networks that consists of millions of private, public, academic, business, and government networks, of local to global scope,
-that are linked by a broad array of electronic, wireless and optical networking technologies. </p> 
+<!DOCTYPE html>
+<html lang="en">
 
- <h1> VINTON CERF </h1>
- <p> -Father of the internet </p>
- 
- <h1> World Wide Web (WWW) </h1>
- 
-<p> - A global information medium which users can read and write via computers connected to the Internet. The term is often mistakenly used as a
-synonym for the Internet itself, but the Web is a service that operates over the Internet, as e-mail does. </br> 
+<head>
 
-- In September 1994, Berners-Lee founded the World Wide Web Consortium (W3C) at the Massachusetts Institute of Technology with support
-from the Defense Advanced Research Projects Agency(DARPA) and the European Commission. It comprised various companies that were
-willing to create standards and recommendations to improve the quality of the Web. </p>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<meta name="description" content="">
+	<meta name="author" content="">
 
-<h1>Tim-Berners Lee</h1>
-<p>- Father of the web</p> 
+	<title>Prelims</title>
 
-<h1> HTTP (hypermedia) </h1>br>
-<p> - Application layer used primarily to retrieve hypertext (on hypermedia) documents and resources on the World Wide Web </br>
-- Jointly developed by the W3C and the IETF </p>
+	<!-- Bootstrap core CSS -->
+	<link href="css/bootstrap.min.css" rel="stylesheet">
 
-<p> Fundamentals
-- HTTP typically runs on top of TCP/IP, using TCP port 80 by default (TCP port 443 for HTTPS). ; </br>
-- HTTP resources are identified using URIs (specifically, HTTP URLs) </br>
-o Scheme (http: or https:) </br>
-o (optional) authentication information </br>
-o Host and (optional) port number </br>
-o Path (resolved to the document root on the server) to the resource </br>
-o (optional) scheme-specific parameters </br>
-o (optional) URL-encoded query </br>
-o (optional) bookmark (or fragment identifier) </p>
+	<!-- Custom styles for this template -->
+	<link href="css/simple-sidebar.css" rel="stylesheet">
 
-<p>
- HTTP is based on client-server architecture
- Clients, aka user agents (UA):
-o Web browsers, web crawlers, email clients, other end user tools and applications
- Servers:
-o Origin servers, proxy servers, gateways, tunnels
- HTTP uses a request-response standard protocol
-o The client sends an HTTP request message to the server
-o The server processes the request and replies with an HTTP response message
- HTTP is a stateless communications protocol
-o Servers do not keep information about clients in between requests
-o Web applications effect session tracking using mechanism such as cookies on URL-encoded session information to keep track of
-related client requests
- HTTP provides support for other functionalities such as cache control, content media type (MIME) specification, language and character set
-specification, content/transfer coding, client-server protocol negotiations, persistent connections, request pipelining, etc.
-Cookie
- A very small text file
-Cache
- Local storage/copy of resource that is fetched from a server
-HTTP Response Message
- Status line
-o HTTP protocol version
-o Status code
-o Reason phrase
- Response headers
- Empty line
- Message body
-HTTP Request Methods
- GET
-o Most commonly used HTTP method
-o Used to request from the server the retrieval of the source identified by the request URI; the retrieved resource is returned in the
-message body as an entity.
-o Can be combined with conditional and/or range request headers to effect conditional and/or partial resource retrieval
-o Must be supported by all general-purpose servers.
- HEAD
-o Identical to GET, except the message body is not included in the response
- POST
-o Request that the origin server accept the entity enclosed in the request as a new subordinate of the resource identified by the
-Request-URI in the Request-Line.
- OPTIONS
-o Request for information about the communication options available on the request/response chain identified by the Request-URI.
-This method allows the client to determine the options and/or requirements associated with a resource, or the capabilities of a
-server, without implying a resource action or initiating resource retrieval.
- TRACE
-o Request the server to “echo” back to the client the received request
-o Typically used for testing/diagnostics of the request chain
- PUT
-o Request the server to store the enclosed entity in the message under the specified request URI
- DELETE
-o Request the server to delete the resource identified by the request URI
- CONNECT
-o Reserved for use of tunneling proxy servers
+</head>
 
-Idempotent Methods
- The methods GET, HEAD, PUT and DELETE share this property.
-HTTP Message Headers
- General Header Fields
-o Cache-control
-o Connection
-o Date
-o Pragma
-o Trailer
-o Transfer-encoding
-o Upgrade
-o Via
-o Warning
+<body>
 
- Request Header Fields
-o Accept
-o Accept-charset
-o Accept-encoding
-o Accept-Language
-o Authorization
-o Expect
-o From
-o Host
-o If-Match
-o If-Modified-Since
-o If-None-Match
-o If-Range
-o If-Unmodified-Since
-o Max-forward
-o Proxy-Authorization
-o Range
-o Referrer
-o User-Agent
- Response Header Fields
-o Accept-Range
-o Age
-o E-Tag
-o Location
-o Proxy-Authenticate
-o Retry-After
-o Server
-o Vary
-o WWW-Authenticate
+	<div id="wrapper">
 
- Entity Header Fields
-o Allow
-o Content-encoding
-o Content-language
-o Content-length
-o Content-location
-o Content-MD5
-o Content-range
-o Content-type
-o Expires
-o Last Modified
+		<!-- Sidebar -->
+		<div id="sidebar-wrapper">
+			<ul class="sidebar-nav">
+				<li class="sidebar-brand">
+					<a href="index.html">
+						WebTek Lec 2018
+					</a>
+				</li>
+				<li>
+					<a href="index.html">Home</a>
+				</li>
+				<li>
+					<a href="prelims.html">Prelims</a>
+				</li>
+				<li>
+					<a href="#">Sources</a>
+				</li>
+			</ul>
+		</div>
+		<!-- /#sidebar-wrapper -->
 
+		<!-- Page Content -->
+		<div id="page-content-wrapper">
+			<div class="container-fluid">
+				<a href="#menu-toggle" class="btn btn-secondary" id="menu-toggle">Show/Hide Side Bar</a>
+				
+				<h1> Internet </h1>
 
-HTTP Status Codes
- Informational (1xx)
-o 100 Continue
-o 101 Switching Protocols
+				<p>A global system of interconnected computer networks that use the standard Internet Protocol Suite (TCP/IP) to serve billions of users worldwide. It is a network of networks that consists of millions of private, public, academic, business, and government networks, of local to global scope,that are linked by a broad array of electronic, wireless and optical networking technologies. 
+				</p>
 
- Success (2xx)
-o 200 OK
-o 202 Accepted
-o 203 Non-Authoritative Information
-o 204 No Content
-o 205 Reset Content
-o 206 Partial Content
+				<p>Vinton Gray "Vint" Cerf</p>
+				<p>Born: 23 June 1943 , New Haven, Connecticut, United States</p>
+				<p>Father of the Internet</p>
+				<p>Internet began in 1969</p>
+				<li>Internet (internetwork), a global information system that is logically linked together by a globally unique address space based on IP.</li>
+				<li>A global system of interconnected computer networks that use the standard Internet Protocol Suite (TCP/IP)
+				to serve billions of users worldwide.</li>
+				<li>It is a networks that consists of millions of private, public, academic, business, and government networks
+				of local to global scope, that are linked by a broad array of electronic, wireless, and optical networking technologies.</li>
+				<li>ARPANET –  (Advanced Research Projects Agency Network) an early packet switching network and the first network to implement the protocol suite TCP/IP.(foundation of the internet)</li>
+				<li>DARPA – (Defense Advanced Research Projects Agency) research program to allow networked computers to communicate transparently across multiple, linked packet networks.</li>
+			</ul>
 
- Redirection (3xx)
-o 300 Multiple Choices
-o 301 Moved Permanently
-o 302 Found
-o 303 See Other
-o 304 Not Modified
-o 305 Use Proxy
-o 307 Temporary Redirect
+			<h1>World Wide Web (WWW)</h1>
+			<p>Tim Berners-Lee</p>
+			<p>Born: 8 June 1955, London, United Kingdom</p>
+			<p>World Wide Web began in 1989</p>
+			<li>A global information medium which users can read and write via computers connected to the Internet.<br>
+			The term is often mistakenly used as a synonym for the Internet itself, but the Web is a service that operates over Internet as E-mail does.</li>
+			<li>in September 1994, Berners-Lee founded the World Wide Web Consortium (W3C) at the Massachusetts Institute of Technology
+			with support from the Defense Advanced Research Projects Agency (DARPA) and the Europian Commission.It compromised various companies that were willing to create standards and recommendations to improve the quality of the Web.</li>
 
- Client Error (4xx)
-o 400 Bad Request
-o 401 Unauthorized
-o 402 Payment Required
-o 403 Forbidden
-o 404 Not Found
-o 405 Method not Allowed
-o 406 Not Acceptable
-o 407 Proxy Authentication Required
-o 408 Request Timeout
-o 409 Conflict
-o 410 Gone
-o 411 Length Required
-o 412 Precondition Failed
-o 413 Request Entity Too Large
-o 414 Request-URI Too Long
-o 415 Unsupported Media Type
-o 416 Request Range Not Satisfiable
-o 417 Expectation Failed
+			<h1>Hypertext Transfer Protocol (HTTP)</h1>
+			<ul>
+				<li>HTTP typically runs on the top of TCP/IP, using TCP port 80 by default (TCP port 443 for HTTPS)</li>
+				<li>HTTP resources are identified using URIs (specifically in HTTP URLs)</li>
+				<li>HTTP is based on client-server achitecture</li>
+				<li>Clients are also known as User Agent (UA):</li>
+				<li>
+					<p>Web browsers, Web crawlers, e-mail clients, and other end user tools and applications</p>
+				</li>
+				<li>Servers:</li>
+				<li>
+					<p>origin servers, proxy servers, getaways, tunnels</p>
+				</li>
+				<li>HTTP uses a request-response standard protocol</li>
+				<li>
+					<p>The client sends an HTTP request message to the server</p>
+					<p>The server processes the request and replies with an HTTP response message</p>
+				</li>
+				<li>HTTP is a stateless communications protocol</li>
+				<li>
+					<p>Servers do not keep informatin about clients in between requests</p>
+					<p>Web applications effect session tracking using mechanism such as cookies on URL-encoded session information to keep track of related client requests</p>
+				</li>
+				<li>HTTP provides suport for other functionalities such as cahe control, content media type (MIME) specification, language and character set specification,<br>
+				content/transfer coding, client-server protocol negotiatons, persistent connections, request pipelining, etc.</li>
+			</ul>
+			<p> HTTP Cookie which is also called web cookie, Internet cookie, browser cookie or simply cookie is small piece of data sent from a website and stored on the user's computer by the user's web browser while user is browsing. </p>
 
- Server Error (5xx)
-o 500 Internal Server Error
-o 501 Not Implemented
-o 502 Bad Gateway
-o 503 Service Unavailable
-o 504 Gateway Timeout
-o 505 HTTP Version Not Supported </p>
+			<p>HTTP Cache is an information technology for the temporary local storage or copy of resource that is fetched from a server.</p>
 
-Hypertext Markup Language
- Language used to markup documents (i.e. web pages) in the WWW
+			<h1>HTTP Request Methods</h1>
+			<ul>
+				<p>The GET method is commonly used in HTTP method, It is used to request from the server the retrieval if the source identified by the request URI and can be combine with conditional and/or range request headers to effect conditional and/or partial resource retrieval.</p>
+			</ul>
+			<ul>
+				<p>The HEAD Method is identical to GET method, Method will asks for a response but without the response body. This is very useful for retrieving.</p>
+			</ul>
+			<ul>
+				<p>The POST method requests that the origin server accept the entity enclosed in the request as a new subordinate of the resource identified by the Request-URI in the Request-Line.</p>
+			</ul>
 
-o Structure (and content)
-o Presentation (mostly deprecated in favor of style sheets)
+			<ul>
+				<p>The PUT method requests that the enclosed entity in the message body under the specified request URI.</p>
+			</ul>
+			<ul>
+				<p>The TRACE method requests the server to "echo" back to the client of received request and typically used for testing or diagnostics of the request chain.</p>
+			</ul>
+			<ul>
+				<p>The DELETE method requests the server to delete the resource identified by the Request-URI.</p>
+			</ul>
+			<ul>
+				<p>The CONNECT method is reserved for used of tunneling proxy servers and converts the request connection to a transparent TCP/IP tunnel.</p>
+			</ul>
+			<ul>
+				<p>The OPTIONS method returns the HTTP methods what a server can do. It can be used to check the functionality of a web server by requesting.</p>
+			</ul>
 
- Versions
-o HTML 2.0, 3.2, 4.0
-o HTML 4.01
+			<h1>HTTP Request Response</h1>
+			<ul>
+				<h3>Request Header</h3>
+				<li>Methods – HEAD, GET, POST, PUT, DELETE, TRACE, CONNECT, OPTION</li>
+				<li>Request URI – target</li>
+				<li>HTTP Protocol Version</li>
 
- Strict – deprecated
- Transitional – still make use the deprecated
- Frameset – using frames
+				<li>
+					<h5>Message Headers</h5>
+					<li>General – used by either client or server</li>
+					<li>Request – client</li>
+					<li>Response – server</li>
+					<li>Entity – content</li>
 
-o HTML 5 (working draft)
- Head
-o title, base, link, meta, style, script
- Body
-o Grouping elements (div, span)
-o Headings (h1 – h6)
-o Paragraphs, line breaks, horizontal rules (p , br , hr)
-o Lists (ul, ol, li, dl, dt, dd, dir, menu)
-o Tables (table, th, tr, td, thead, tfoot, tbody, colgroup, col)
-o Structured text
- Phrase elements (em, strong, dfn, code, samp, kbd, var, cite, abbr, acronym)
- Quotations (blockquote, q)
- Subscripts and superscripts (sub, sup)
- Preformatted texts (pre)
-o Font styles and alignments (tt, i, b, big, small, strike, s, u, font, basefont, center)
-o Document changes (ins, del)
-o Links and anchors (a)
-o Objects, images, applets (object, img, param, applet)
-o Scripts (script, noscript)
-o Miscellaneous (address, bdo)
-o Frames, noframes, iframe
-o Frameset (for frameset DTD)
+					<h5>Empty Line (CRLF)</h5>
 
 
+					<h5>Message Body(Optional)</h5>
+					<li>DNT – do not track, an extension</li>
+					<li>Upgrade – Insecure – Request – also an extension</li>
+					<li>Blank line after the Accept- Language – means terminate</li>
+				</li>
 
 
+				<h3>Response Header</h3>
+
+				<li>
+					<h5>Status Line (CRLF)</h5>
+					<li>HTTP protocol version</li>
+					<li>Status Code</li>
+					<li>Reason Phrase</li>
+
+					<h5>HTTP Protocol Version</h5>
+					<h3>Status Code</h3>
+					<ul>
+						<li>Information(1XX)</li>
+						<li>Success(2XX)</li>
+						<li>Redirection(3XX)</li>
+						<li>Client Error(4XX)</li>
+						<li>Server Error(5XX)</li>
+					</ul>
+					<h5>Reason Phase</h5>
+					<h5>Message Headers</h5>
+					<li>General, Request and Entity header</li>
+					<h5>Empty Line</h5>
+					<p>Message Body (optional)</p>
+				</li>
+
+				<h1>HTML (Hypertext Markup Language)</h1>
+				<ul>
+					<p>a language used to markup documents (i.e. web pages) in the world wide web</p>
+					<p>historically, HTML was used to specify the structure and content of web pages as well as their presentation.</p>
+					<p>Modern web development practice however uses HTML solely for semantic specification of web page structure and content with presentational aspect being delegated to style sheets</p>
+					<p>Develop at CERN then the IETF, then the W3C, WHATWG</p>
+				</ul>
+				<h3>Version History</h3>
+				<ul>
+					<p>Pre-standardization</p>
+					<li>HTML Tags, by Tim Berners-Lee late 1991</li>
+					<li>HTML + (HTF) Dave Raggett late 1993</li>
+					<li>HTML 3.2</li>
+					<li>HTML 4.0</li>
+					<li>TML 4.01</li>
+					<h3>XHTML- reformulation of HTML in XML</h3>
+					<li>intended to facilitate the introduction of new HTML elements and or attributes</li>
+					<li>XHTML 1.0 (W3C Recommendation, Jan 2000)</li>
+					<li>XHTML 1.1 Module- Based XHTML (W3C Recommendation, May 2001)</li>
+
+					<h3>XML</h3>
+
+					<li>Intended to facilitate the introduction of html element and/or attribute provide interoperability between HTML and XML.</li>
+					<li>Based system and leverage the use if XML tools in creating editing and parsing HTML</li>
+					<li>Its to move the internet content-development community from the days of mail formed non-standard HTML markup Into the well-formed, valid world of XML</li>
+
+
+					<p>HTML 5</p>
+					
+					<li>arose from the effort to evolve HTML (instead of replacing it) to address backward compatibility issues that hindered the adoption of XHTML</li>
+					<li>work on HTML5 was initially undertaken by the WHATWG (led by Apple, Mozilla and Opera) in 2004 with the W3C signifying interest to participate in the effort in 2006;</li>
+					<li>HTML 5 incorporated specifications from HTML4, XHTML1</li>
+					<li>HTML 5.1</li>
+					<li>HTML 5.2</li>
+					<li>HTML Living Standard (WHATWG)</li>		
+				</ul>
+			</div>
+		</div>
+	</div>
+</div>
+</div>
+</div>
+<!-- /#page-content-wrapper -->
+</div>
+<!-- /#wrapper -->
+
+<!-- Bootstrap core JavaScript -->
+<script src="jquery/jquery.min.js"></script>
+<script src="js/bootstrap.bundle.min.js"></script>
+
+<!-- Menu Toggle Script -->
+<script>
+	$("#menu-toggle").click(function(e) {
+		e.preventDefault();
+		$("#wrapper").toggleClass("toggled");
+	});
+</script>
 
 </body>
+
 </html>
