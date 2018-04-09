@@ -8,7 +8,7 @@
 	<meta name="description" content="">
 	<meta name="author" content="">
 
-	<title>Prelims</title>
+	<title>Midterms</title>
 
 	<!-- Bootstrap core CSS -->
 	<link href="css/bootstrap.min.css" rel="stylesheet">
@@ -67,27 +67,106 @@
 						<li>CSS Level 2 (CSS2, W3C Recommendation, May 1998)</li>
 						<li>CSS Level 2 Revision (CSS2.1, W3C Recommendation, Jun 2011)</li>
 						<li>CSS Level 3</li>
+						<h5>HTML Stylesheets</h5>
+						<li>Sources of style for HTML document</li>
+						<h5>Author Styles</h5>
+						<li>External (a.k.a linked) stylesheets (recommended)</li>
+						<li>Embedded (a.k.a internal) stylesheets</li>
+						<li>Inline Styles or User styles</li>
+						<p>-Some browsers (non-standard) alternatives through/ extensions (e.g stylish)</p>
+						<p>-Sample default user agent stylesheet from CSS 2.1</p>
+						<p>-The source of a style denotes its origin, which is used in determining its procedural in the cascade.</p>
 					</ul>
 				</div>
 			</div>
-		</div>
 
-		<script src="jquery/jquery.min.js"></script>
-		<script src="js/bootstrap.bundle.min.js"></script>
-		<!-- Menu Toggle Script -->
-		<script>
-			$("#menu-toggle").click(function(e) {
-				e.preventDefault();
-				$("#wrapper").toggleClass("toggled");
-			});
-		</script>
-		<footer>
-			<div class="footer-bottom">
-				<div class="container text-center">
-					<p> Copyright © Web Technology Lessons 2018. All right reserved. </p>
-				</div>
-			</div>
-			<!--/.footer-bottom--> 
-		</footer>
-	</body>
-	</html>
+			<div id="page-content-wrapper">
+				<div>
+					<a class="btn btn-primary col-md-12" data-toggle="collapse" href="#cssSelector" role="button" aria-expanded="false" aria-controls="css">CSS Selector</a>
+				</div>	
+				<div class="collapse multi-collapse" id="cssSelector">
+					<div class="card card-body">
+						<ul>
+							<li>Structure used as a condition in a css rule to determine which elements in the document tree
+								Ex. Of select h1 + ul > a[target] { </li>
+								<li>Chain of one or more sequence of simple selectors separated by combinators with one pseudo</li>
+								<li><h5>Selector group</h5></li>
+								<p>Comma-separated list of selectors representing the union of all elements selected by each of the selectors in the list
+								Ex. Of universal selector h1, h2, h3 ;link, : visited ul, h1, p </p>
+								<li><h5>Simple Selectors</h5></li>
+								<li><h5>Universal Selector</h5></li>
+								<p>{color: gray;}
+									div > * {margin: 0; padding: 0;}</p>
+									<li><h5>Type Selector</h5></li>
+									<li>ID Selector</li>
+									<li>Class Selector</li>
+									<li>Attribute Selectors</li>
+									<li>Combinators</li>
+									<p>- Child Combinator (>) </p>
+									<p>Descendant combinator(whitespace, i.e space, tab, line feed)</p>
+									<p>General Sibling Combinator</p>
+								</ul>
+							</div>
+						</div>
+					</div>
+
+					<div id="page-content-wrapper">
+						<div>
+							<a class="btn btn-primary col-md-12" data-toggle="collapse" href="#pseudo" role="button" aria-expanded="false" aria-controls="css">Pseudo Elements </a>
+						</div>	
+						<div class="collapse multi-collapse" id="pseudo">
+							<div class="card card-body">
+								<ul>
+									<li>Pseudo Classes</li>
+									<p>Dynamic Pseudo Classes</p>
+									<li>Link pseudo-classes</li>
+									<li>User action pseudo - class</li>
+									<p>:hover, : active, :focus</p>
+									<li>Target pseudo-class</li>
+									<p>:target</p>
+									<li>Language pseudo-class</li>
+									<li>UI element states pseudo-classes</li>
+									<p>:enabled, :disabled, :checked, :indeterminate</p>
+									<li>Structural Pseudo Classes</li>
+									<p>:root</p>
+									<p>:first-child, :last-child, :only-child</p>
+									<p>nth -child () :last-child :only-child</p>
+									<p>:first – of – type, : last- of-type, only-of-type</p>
+									<p>:nth-of-type, : nth-last-child</p>
+									<p>:empty</p>
+									<li>Negation Pseudo-Class</li>
+									<p>:not()</p>
+									<li><h5>Properties<h5></li>
+										<li>Shorthand Properties</li>
+										<p>-Allow to Specify the values of several properties with a single property</p>
+										<li>e.g. background font, margin, padding, border, border-left, border-width, etc.</li>
+										<p>Vendor specific extensions (a.k.a. vendor prefix)
+										Used by the browser vendors as a prefix for the names of experimental or non-standard CSS properties; lately vendors are moving from vendor prefixes in favor of user controlled flags or preferences</p>
+										<li>e.g -webkit-, -moz, -o-, -ms-, etc.</li>
+										<li>custom properties a.k.a css variables expirement</li>
+										<p>-property names prefixed with --representing a value that can be used throughout the document using the var() function </p>
+										
+									</ul>
+								</div>
+							</div>
+						</div>
+
+						<script src="jquery/jquery.min.js"></script>
+						<script src="js/bootstrap.bundle.min.js"></script>
+						<!-- Menu Toggle Script -->
+						<script>
+							$("#menu-toggle").click(function(e) {
+								e.preventDefault();
+								$("#wrapper").toggleClass("toggled");
+							});
+						</script>
+						<footer>
+							<div class="footer-bottom">
+								<div class="container text-center">
+									<p> Copyright © Web Technology Lessons 2018. All right reserved. </p>
+								</div>
+							</div>
+							<!--/.footer-bottom--> 
+						</footer>
+					</body>
+					</html>
