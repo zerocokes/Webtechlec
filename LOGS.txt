@@ -1,0 +1,317 @@
+Revision: 0000000000000000000000000000000000000000
+Author:  <>
+Date: 1/1/1970 8:00:00 AM
+Message:
+Working tree changes
+
+0 files changed
+----
+
+Revision: e2d1e120a85d765f7edd5f375759514d7e1d063d
+Author: zerocokes <jaysoncaliway@gmail.com>
+Date: 4/9/2018 3:40:23 PM
+Message:
+edited
+
+----
+Modified: README.txt
+
+Revision: 911c2be7eb4df96837481cdf408cff4a7c11ddd6
+Author: zerocokes <jaysoncaliway@gmail.com>
+Date: 4/9/2018 3:33:13 PM
+Message:
+adade
+
+----
+Added: LOGS.txt
+Added: website/midtermnotes/midterm-notes
+
+Revision: c747543a407be27f1e9aa045df0e2b1475f0e637
+Author: zerocokes <jaysoncaliway@gmail.com>
+Date: 4/9/2018 3:11:18 PM
+Message:
+fin
+
+----
+Modified: website/midterms.html
+
+Revision: bcc6fa4a405852d9efc300e26549ea828a61f921
+Author: zerocokes <jaysoncaliway@gmail.com>
+Date: 4/9/2018 12:54:14 PM
+Message:
+kaman nina
+
+----
+Modified: website/index.html
+Modified: website/midterms.html
+
+Revision: 39a7474cf14f8a4d55f1759cea0fcb4cc02f1577
+Author: zerocokes <jaysoncaliway@gmail.com>
+Date: 4/8/2018 11:43:14 PM
+Message:
+unknown
+
+----
+Deleted: midterm-notes
+Modified: website/index.html
+Modified: website/midterms.html
+
+Revision: 179eaa330dfaab65abd3be30eb49071baf24daed
+Author: zerocokes <jaysoncaliway@gmail.com>
+Date: 4/8/2018 7:02:09 PM
+Message:
+Merge branch 'master' of https://github.com/zerocokes/Webtechlec
+
+----
+Added: midterm-notes
+Added: website/midterms.html
+
+Revision: 52daea518820f78bb1cab0b941337db5b8fb238d
+Author: jeann123 <36765895+jeann123@users.noreply.github.com>
+Date: 4/7/2018 9:11:39 AM
+Message:
+Create midterm-notes
+
+files-midterm-notes
+----
+Added: midterm-notes
+
+Revision: 4bebae1ce8c0073c0fac270f388c442162202824
+Author: zerocokes <jaysoncaliway@gmail.com>
+Date: 4/8/2018 7:01:13 PM
+Message:
+added
+
+----
+Added: website/midterms.html
+
+Revision: cf9e0b2200efe6a307eb3a24cfeaa0e589c91875
+Author: zerocokes <jaysoncaliway@gmail.com>
+Date: 3/26/2018 5:28:40 PM
+Message:
+Add midterms.html
+Modified prelims.html
+----
+Modified: website/index.html
+Modified: website/prelims.html
+
+Revision: 39c73242919b1af582beb2d93a066483f9a8ebb5
+Author: jayson <jaysoncaliway@gmail.com>
+Date: 3/26/2018 4:32:03 PM
+Message:
+Fix Collapse
+
+----
+Modified: website/prelims.html
+
+Revision: c54b32ea4293666fa1d7ee7fe55a9ad7a31a721b
+Author: jayson <jaysoncaliway@gmail.com>
+Date: 2/26/2018 2:52:01 PM
+Message:
+Add LOGS.txt
+Move README.txt
+----
+Modified: website/LOGS.txt
+Modified: website/README.txt
+
+Revision: fa4d227707fa5d42bf5c808d35e6d150d2186524
+Author: jayson <jaysoncaliway@gmail.com>
+Date: 2/26/2018 2:18:22 PM
+Message:
+Merge branch 'master' of https://github.com/zerocokes/Webtechlec
+
+----
+Added: README.txt
+Modified: website/css/bootstrap.css
+Modified: website/index.html
+Modified: website/prelimnotes/weblec.docx
+Deleted: website/prelimnotes/~$weblec.docx
+Modified: website/prelims.html
+
+Revision: 752b0a8e8b5ad35b52df9b356f648bf8733a6e2e
+Author: Bryn Edades <bryn.edades@gmail.com>
+Date: 2/26/2018 1:48:36 PM
+Message:
+Add files via upload
+
+----
+Added: README.txt
+
+Revision: 027b807613b3b48e367694c48729ecc07f7b9b3b
+Author: jayson <jaysoncaliway@gmail.com>
+Date: 2/26/2018 2:17:54 PM
+Message:
+update css/bootstrap.css
+update index.html
+update prelims.html
+----
+Modified: website/css/bootstrap.css
+Modified: website/index.html
+Modified: website/prelimnotes/weblec.docx
+Deleted: website/prelimnotes/~$weblec.docx
+Modified: website/prelims.html
+
+Revision: f99318f654f45fb65f338786afd1e105ed4da3d2
+Author: jayson <jaysoncaliway@gmail.com>
+Date: 2/26/2018 12:25:35 PM
+Message:
+update index.html
+update prelims.html
+transfer
+----
+Modified: website/css/bootstrap.css
+Modified: website/index.html
+Added: website/prelimnotes/~$weblec.docx
+Modified: website/prelims.html
+
+Revision: 11fef77aec934825d358f0eeee89ea8b92bf6205
+Author: jayson <jaysoncaliway@gmail.com>
+Date: 2/26/2018 9:22:17 AM
+Message:
+transfer files
+
+----
+Rename: website/prelimnotes/prelimnotes.docx (from prelimnotes.docx)
+Rename: website/prelimnotes/weblec.docx (from weblec.docx)
+Rename: website/prelimnotes/webtechnotes.docx (from webtechnotes.docx)
+
+Revision: a256389f6d19517bf2c337803ccebf345335f54d
+Author: Bryn Edades <bryn.edades@gmail.com>
+Date: 2/25/2018 11:18:07 PM
+Message:
+Add files via upload
+
+----
+Modified: website/imgs/bryn.jpg
+
+Revision: 776363d6f825a601bafdbf2a585f6102ceefce0a
+Author: maryamhanns <30684539+maryamhanns@users.noreply.github.com>
+Date: 2/25/2018 8:23:58 PM
+Message:
+Update prelims.html
+
+----
+Modified: website/prelims.html
+
+Revision: ff096498c4fc94a0a786be8077aa5d45c6f1f9a7
+Author: Bryn Edades <bryn.edades@gmail.com>
+Date: 2/24/2018 6:19:50 PM
+Message:
+Add files via upload
+
+----
+Added: prelimnotes.docx
+
+Revision: fd6136b31a268810607ed0d91380568cd2ea4da3
+Author: je-ann <jeanndacyas@gmail.com>
+Date: 2/24/2018 5:24:08 PM
+Message:
+add webtechnotes
+
+----
+Rename: webtechnotes.docx (from webteknotes.docx)
+Deleted: ~$weblec.docx
+
+Revision: ec02110985947da54f57a78b431c25c43ab23aa7
+Author: unknown <je-ann>
+Date: 2/24/2018 5:02:12 PM
+Message:
+add webteknotes
+
+----
+Added: webteknotes.docx
+Added: ~$weblec.docx
+
+Revision: cc1ae2120575e3600505fe3c2a289b5c65fee3a6
+Author: renzwillie <renzwillie2121@gmail.com>
+Date: 2/24/2018 8:16:37 AM
+Message:
+Add files via upload
+
+----
+Added: weblec.docx
+
+Revision: 97f193c32c216d66c1103630f3fe78e06da7457f
+Author: Jayson Caliway <32257743+zerocokes@users.noreply.github.com>
+Date: 2/23/2018 6:28:58 PM
+Message:
+Create README.md
+
+----
+Added: README.md
+
+Revision: 8925c3f08af247d35a7d0cb591b51ad14e7b727b
+Author: Jayson Caliway <jaysoncaliway@gmail.com>
+Date: 2/23/2018 6:27:12 PM
+Message:
+remove uneccessary files
+
+----
+Deleted: website/.gitignore
+Deleted: website/.travis.yml
+Deleted: website/LICENSE
+Deleted: website/README.md
+Deleted: website/gulpfile.js
+Deleted: website/package-lock.json
+Deleted: website/package.json
+
+Revision: 0d8d0fb4ff77014b9cd2bc42254f22a967fbecaa
+Author: Jayson Caliway <jaysoncaliway@gmail.com>
+Date: 2/23/2018 6:20:33 PM
+Message:
+add bootstrap
+add index.html
+add prelims.html
+add some text
+add some imgs
+----
+Deleted: README.md
+Added: website/.gitignore
+Added: website/.travis.yml
+Added: website/LICENSE
+Added: website/LOGS.txt
+Added: website/README.md
+Added: website/README.txt
+Added: website/css/bootstrap-grid.css
+Added: website/css/bootstrap-grid.min.css
+Added: website/css/bootstrap-reboot.css
+Added: website/css/bootstrap-reboot.min.css
+Added: website/css/bootstrap.css
+Added: website/css/bootstrap.css.map
+Added: website/css/bootstrap.min.css
+Added: website/css/bootstrap.min.css.map
+Added: website/css/simple-sidebar.css
+Added: website/gulpfile.js
+Added: website/imgs/bryn.jpg
+Added: website/imgs/jayson.jpg
+Added: website/imgs/jeann.jpg
+Added: website/imgs/maryam.jpg
+Added: website/imgs/renz.jpg
+Added: website/index.html
+Added: website/jquery/jquery.js
+Added: website/jquery/jquery.min.js
+Added: website/jquery/jquery.min.map
+Added: website/jquery/jquery.slim.js
+Added: website/jquery/jquery.slim.min.js
+Added: website/jquery/jquery.slim.min.map
+Added: website/js/bootstrap.bundle.js
+Added: website/js/bootstrap.bundle.js.map
+Added: website/js/bootstrap.bundle.min.js
+Added: website/js/bootstrap.bundle.min.js.map
+Added: website/js/bootstrap.js
+Added: website/js/bootstrap.js.map
+Added: website/js/bootstrap.min.js
+Added: website/js/bootstrap.min.js.map
+Added: website/package-lock.json
+Added: website/package.json
+Added: website/prelims.html
+
+Revision: 0b0dad83f35bab47d6d0751d0115edcbc195f41e
+Author: Jayson Caliway <32257743+zerocokes@users.noreply.github.com>
+Date: 2/23/2018 4:20:31 PM
+Message:
+Initial commit
+
+----
+Added: README.md
+
