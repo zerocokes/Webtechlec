@@ -145,11 +145,120 @@
 										<li>e.g -webkit-, -moz, -o-, -ms-, etc.</li>
 										<li>custom properties a.k.a css variables expirement</li>
 										<p>-property names prefixed with --representing a value that can be used throughout the document using the var() function </p>
-										
+										<li>Values</li>
+										<li>Values Processing</li>
+										<p>Declared, Cascaded, Specified, Computed, Used, Actual Values</p>
+										<li>Value Types</li>
+										<p>Keywords</p>
+										<li>CSS wide keywords
+											Initial, inherit, unset
+										Property-specific keywords</li>
+										<p>Numbers</p>
+										<li>Integers or reals in (scientific) decimal notation</li>
+										<p>Dimensions</p>
+										<li>Length, angle, duration (or time), grequency, resoulution</li>
+										<li>Length units:</li>
+										<li>Font-relative: em, ex,ch,rem</li>
+										<li>Viewport-percentage:vw,vh,vmin,vmax</li>
+										<li>Absoulute:cm,mm,in,pt,pc,px</li>
+										<li><h5>Angle Units:</h5></li>
+										<li>Deg,grad,vad,turn</li>
+										<li>Use in some gradient and transform functions</li>
+										<li><h5>Duration / Time Units</h5></li>
+										<p>S,ms</p>
+										<p>Use in animation, transition, and related properties</p>
+										<li>Frequency units:</li>
+										<p>hz, khz</p>
+										<p>Initially introduced in CSS2 for the aural media type; reintroduced in CSS 3, but is currently unused
+										</p>
+										<p>Resolution Units</p>
+										<li>Percentage</li>
+										<li>Number with a % suffix</li>
+										<li>alculated as a percentage of sonme value(usually taken from the parent element)</li>
+										<p>URL's URI's</p>
+										<li>url ().function with a absolute or relative </li>
+										<p>Colors</p>
+										<li>Color keywords : red</li>
+										<li>RGB hexadecimal notation</li>
+										<li>#ft0000, #ft0000ff, #f00, #f00f</li>
+										<li>RGB FUNCTIONS</li>
+										<li>Rgb (255,0,0),rgb(100%,0%,0%)rgba(255,0,0,1)</li>
+										<li>HSL functions:</li>
+										<p>Hsl (0, 100%,50%), hsla(0, 100%,50%,1)</p>
+										<li>Current color, transparent</li>
+										<li><h5>Strings</h5></li>
+										<p>Delimated by single quotes (‘) or double quotes(“)</p>
+										<p>Functions ex. Counter, rotateX(), roatateY(), attrib()</p>
+										<p>Miscellaneous types ex</p>
+										<li>CSS Preprocessors</li>
+										<li>Generates CSS using a custom language syntax that typically includes features that don’t exist in pure CSS (e.g. variables, control flow, nesting, mixins, functions,etc.)</li>
+										<li>e.g. sass, less, stylus,etc.</li>
+										<li>CSS Frameworks</li>
+										<li>Provides predefined CSS design functionality that can reused, extended</li>
+										<li>e.g. Bootstrap, foundation, materialize, etc.</li>
+										<li>Dolyfills</li>
+										<li>Provides features that developers expect browsers to provide natively</li>
+
+
 									</ul>
 								</div>
 							</div>
 						</div>
+
+						<div id="page-content-wrapper">
+							<div>
+								<a class="btn btn-primary col-md-12" data-toggle="collapse" href="#js" role="button" aria-expanded="false" aria-controls="css">Java Script </a>
+							</div>	
+							<div class="collapse multi-collapse" id="js">
+								<div class="card card-body">
+									<ul>
+										<li>JavaScript is a scripting programming language that was developed by Brendan Eich in 1995 at Netscape Communications which allows us to create updating content, control multimedia, animate images, and pretty much everything else. It is an imperative programming language, a sequence of statement, a sequence of instructions that modifies, a dynamically type language that never designate types, and is used in Client-Side Programming to make webpages interactive. It will introduce you to a whole new level of possibilities when making your webpages.</li>
+										<li>It was formerly called Mocha, LiveScript then JavaScript.</li>
+										<li>Standardized by ECMA International as ECMAScript.</li>
+										<li>Latest version: JavaScipt 1.8.1, ECMAScript 5 [ECMA-262 5th Edition].</li>
+										<li>Common version: JavaScript 1.5, Jscript 5.5, ECMAScript v3 [ECMA-262 3rd Edition]</li>
+										<p>Javascript Execution Enviroment</p>
+										<li>Core Javascript  (Ecma Script) Language and API</li>
+										<li>(Traditional) Browser Object Model (BOM) API (non- standardized)
+										Window, Navigator, Screen, Location, History</li>
+										<li>Document Object Model (DOM)API</li>
+										<li>Node, Document, Element, Text, Attr, DocumentType, Comment,etc.</li>
+										<li>Event, EventTarget, EventListener, etc</li>
+										<li>CSS Style sheet, CSS Rule, etc.</li>
+										<li>Miscellaneous java script web APISs</li>
+										<li>Geolocation, indexedDB, local storage, push notification, service, workers</li>
+										<p>DOM Document Object Model</p>
+										<li>API</li>
+										<p>Javascript Event Handling</p>
+										<p>Event propagation order (DOM - compliant browsers)</p>
+										<p>-Capturing Phase</p>
+										<p>-At Target</p>
+										<p>-Bubbling Phase</p>
+										<li><h5>Event Handler Registration</h5></li>
+										<li>Method #1 (inline HTML event attribute)</li>
+										<li>Non-standard, universal support, not recommended</li>
+										<li>Method # 2 (pre-DOM L2)..</li>
+										<p>Non-Standard, Universal support</p>	
+										<li>Method #3 (DOM L2 event registration)</li>
+										<p>Standard, Well Supported</p>
+										<li>Method #4 (Microsoft-specific, non standard, IEV6-V10)</li>
+										<p>Determining the identity of the element handling the event for method #1 registration function handler (obj){
+											obj is the element that is handling the element
+											Event object properties and methods
+											-	Bubbles
+											-	Event phase
+											-	Target (or sElement (non-standard))
+											-	Current target
+											-	PreventDefault()
+											-	Stop Propagation()
+											-	Stop immediate propagation()
+										-	Other event-specific information</p>
+
+									</ul>
+								</div>
+							</div>
+						</div>
+
 
 						<script src="jquery/jquery.min.js"></script>
 						<script src="js/bootstrap.bundle.min.js"></script>
